@@ -1,0 +1,462 @@
+/* general */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.description {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.background-pic {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro {
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.section-title {
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.darken {
+  position: absolute;
+  background-color: black;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.icon {
+  position: absolute;
+  width: 60px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.icon-caption {
+  position: absolute;
+  top: 70px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  top: 150px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.wrapper2 {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  top: 250px;
+}
+
+/* main section */
+
+#main-section {
+  background: url("img/monterey-min.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+}
+
+#emilygosti {
+  opacity: 0.9;
+  font-size: 80px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+#down-arrow {
+  position: absolute;
+  opacity: 0.8;
+  height: 50px;
+  bottom: 10;
+  margin: auto;
+  left: 0;
+  right: 0;
+  animation: UpDown 2s linear infinite;
+}
+
+@keyframes UpDown {
+  0 {
+    bottom: 10;
+  } 50% {
+    bottom: 30;
+  } 100% {
+    bottom: 10;
+  }
+}
+
+#down-arrow:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* about section */
+
+.about-me-contents {
+  position: absolute;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #5B6982;
+}
+
+#icon-pattern {
+  position: relative;
+}
+
+.imagecircle {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 500;
+}
+
+#emily-pic {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+#about {
+  position: absolute;
+  width: 310px;
+  top: 30%;
+  bottom: 0;
+  left: 500;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+#about-me-title {
+  font-size: 40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#about-me-paragraph {
+  top: 15%;
+  font-size: 18px;
+}
+
+/* professional section */
+
+#prof-section {
+  background-image: url("img/sfstreet-min.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+}
+
+/* resume section */
+
+#resume-section {
+  height: 500px;
+  background-color: #f5f5f5;
+}
+
+.professional-item {
+  position: absolute;
+  display: inline-block;
+  color: #5B6982;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+}
+
+.professional-item:hover {
+  cursor: pointer;
+}
+
+.section-text {
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  color: #5B6982;
+  text-align: center;
+  width: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#resume-section-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#resume-section-blurb {
+  top: 100px;
+}
+
+#linkedin {
+  left: 15%;
+}
+
+#github {
+  left: 35%;
+}
+
+#resume {
+  left: 55%;
+}
+
+#portfolio {
+  left: 75%;
+}
+
+/* portfolio section */
+
+#portfolio-section {
+  height: 400px;
+  background-color: #f5f5f5;
+}
+
+/* personal section */
+
+#personal-section {
+  background-image: url("img/emilyemeri-min.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+}
+
+/* hobbies section */
+#hobbies-section {
+  height: 1000px;
+  background-color: #f5f5f5;
+}
+
+#hobbies-wrapper {
+  height: 1000px;
+}
+
+#hobbies-wrapper2 {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+}
+
+#hobbies-section-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#hobbies-section-blurb {
+  top: 100px;
+}
+
+#hobbies-wrapper3 {
+  position: relative;
+  top: 250px;
+  width: 100%;
+}
+
+.hobbies-picture {
+  position: absolute;
+}
+
+#hobbies-pic {
+  position: absolute;
+}
+
+.hobbies-caption {
+  display: none;
+  position: absolute;
+  width: 450px;
+  height: 300px;
+  /*top: 175px;*/
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  z-index: 1;
+}
+
+#golf-pic, #camping-pic {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#symphony-pic, #tennis-pic {
+  width: 510px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#golf {
+  left: 5%;
+}
+
+#symphony {
+  right: 5%;
+}
+
+#tennis {
+  top: 310px;
+  left: 5%;
+}
+
+#camping {
+  top: 310px;
+  right: 5%;
+}
+
+/* footer section */
+
+#footer-section {
+  position: relative;
+  height: 420px;
+  background-color: #5B6982;
+}
+
+#footer-wrapper {
+  height: 400px; /* height and top add up to height of footer-section */
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#footer-wrapper2 {
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+
+.footer-item {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  top: 170px;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+}
+
+#swirl-pattern {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+#footer-section-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  top: 50px;
+}
+
+#email-info {
+  position: absolute;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  top: 140;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#snapchat-info {
+  position: absolute;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  top: 140;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#email {
+  left: 5%;
+  width: 400px;
+}
+
+#facebook {
+  left: 35%;
+}
+
+#instagram {
+  left: 55%;
+}
+
+#snapchat {
+  left: 75%;
+}
+
+#credits {
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 320;
+  margin: auto;
+}

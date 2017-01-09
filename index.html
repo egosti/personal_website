@@ -4,16 +4,71 @@
     <title>Emily Gosti</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:800|Raleway|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Unica+One" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/script/script.js"></script>
   </head>
 
   <body>
 
+    <div id="sidebar-button">
+        <a id="nav-toggle">
+            <span></span>
+        </a>
+    </div>
+    <nav class="sidebar-wrapper">
+      <div id="main-nav">
+        <ul>
+          <a href="#about-section">
+            <li class="sidebar-item">ABOUT ME</li>
+          </a>
+          <a href="#prof-section">
+            <li class="sidebar-item">PROFESSIONAL</li>
+          </a>
+          <a href="#personal-section">
+            <li class="sidebar-item">PERSONAL</li>
+          </a>
+          <a href="#footer-section">
+            <li class="sidebar-item">CONTACT ME</li>
+          </a>
+        </ul>
+      </div>
+      <div id="media-nav">
+        <ul>
+          <a href="#about-section">
+            <li class="sidebar-item" id="gmail-circle">
+              <img src="assets/img/icons/svg/gmail-circle.svg" class="sidebar-icon">
+            </li>
+          </a>
+          <a href="#prof-section">
+            <li class="sidebar-item" id="facebook-circle">
+              <img src="assets/img/icons/svg/facebook-circle.svg" class="sidebar-icon">
+            </li>
+          </a>
+          <a href="#personal-section">
+            <li class="sidebar-item" id="instagram-circle">
+              <img src="assets/img/icons/svg/instagram-circle.svg" class="sidebar-icon">
+            </li>
+          </a>
+          <a href="#footer-section">
+            <li class="sidebar-item" id="linkedin-circle">
+              <img src="assets/img/icons/svg/linkedin-circle.svg" class="sidebar-icon">
+            </li>
+          </a>
+          <a href="#footer-section">
+            <li class="sidebar-item" id="github-circle">
+              <img src="assets/img/icons/svg/github-circle.svg" class="sidebar-icon">
+            </li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="page-wrapper">
     <div class="section" id="main-section">
       <div class="darken"></div>
       <div class="intro">
-        <div id="emilygosti">Emily Gosti</div>
+        <div id="emilygosti">EMILY GOSTI</div>
         <div id="home-description" class="description">engineer | athlete | musician | bay area</div>
       </div>
       <div id="arrow">
@@ -24,7 +79,7 @@
     <div class="section" id="about-section">
       <img src="assets/img/pattern/photography_@2X.png" id="icon-pattern" class="background-pic">
       <div class="imagecircle">
-        <img src="assets/img/me.JPG" id="emily-pic">
+        <img src="assets/img/emily.jpg" id="emily-pic">
       </div>
       <div id="about">
         <div id="about-me-title" class="about-me-contents">ABOUT ME</div>
@@ -49,18 +104,18 @@
         <div id="resume-section-title" class="section-text">AIM HIGH, WORK HARD</div>
         <div id="resume-section-blurb" class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
         <div class="wrapper2">
-          <a href="https://www.linkedin.com/in/egosti" id="linkedin" class="professional-item">
+          <a href="https://www.linkedin.com/in/egosti" target="_blank" id="linkedin" class="professional-item">
             <img src="assets/img/icons/svg/linkedin-logo.svg" class="icon">
             <div class="icon-caption">LinkedIn</div>
           </a>
-          <a href="https://github.com/egosti" id="github" class="professional-item">
+          <a href="https://github.com/egosti" target="_blank" id="github" class="professional-item">
             <img src="assets/img/icons/svg/github-sign.svg" class="icon">
             <div class="icon-caption">Github</div>
           </a>
-          <div id="resume" class="professional-item">
+          <a href="assets/img/ResumeFall2016.pdf" target="_blank" id="resume" class="professional-item">
             <img src="assets/img/icons/svg/resume.svg" class="icon">
             <div class="icon-caption">Resume</div>
-          </div>
+          </a>
           <div id="portfolio" class="professional-item">
             <img src="assets/img/icons/svg/old-fashion-briefcase.svg" class="icon">
             <div class="icon-caption">Portfolio</div>
@@ -70,7 +125,19 @@
     </div>
 
     <div class="section" id="portfolio-section">
-      <div id="portfolio-section-title" class="section-text">COMING SOON!</div>
+      <div id="portfolio-section-title" class="section-text">MY WEB PROJECTS</div>
+      <div class="portfolio-picture" id="wdd">
+        <img src="assets/img/wdd.png" id="wdd-pic" class="portfolio-pic">
+        <div class="portfolio-caption-wrapper" id="wdd-caption">
+          <div class="portfolio-caption">Web Design Decal final project</div>
+        </div>
+      </div>
+      <div class="portfolio-picture" id="blank">
+        <img src="assets/img/laptop.png" id="blank-pic" class="portfolio-pic">
+        <div class="portfolio-caption-wrapper" id="blank-caption">
+          <div class="portfolio-caption">Project coming soon</div>
+        </div>
+      </div>
     </div>
 
     <div class="section" id="personal-section">
@@ -90,19 +157,31 @@
           <div id="hobbies-wrapper3">
             <div class="hobbies-picture" id="golf">
               <img src="assets/img/golf.jpg" id="golf-pic">
-              <div class="hobbies-caption" id="golf-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              <div class="hobbies-caption-wrapper1" id="golf-caption">
+                <div class="hobbies-caption-title">GOLF</div>
+                <div class="hobbies-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              </div>
             </div>
             <div class="hobbies-picture" id="symphony">
               <img src="assets/img/symphony.jpg" id="symphony-pic">
-              <div class="hobbies-caption" id="symphony-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              <div class="hobbies-caption-wrapper2" id="symphony-caption">
+                <div class="hobbies-caption-title">SYMPHONY</div>
+                <div class="hobbies-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              </div>
             </div>
             <div class="hobbies-picture" id="tennis">
               <img src="assets/img/tennis.jpg" id="tennis-pic">
-              <div class="hobbies-caption" id="tennis-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              <div class="hobbies-caption-wrapper2" id="tennis-caption">
+                <div class="hobbies-caption-title">TENNIS</div>
+                <div class="hobbies-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              </div>
             </div>
             <div class="hobbies-picture" id="camping">
               <img src="assets/img/camping.jpg" id="camping-pic">
-              <div class="hobbies-caption" id="camping-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              <div class="hobbies-caption-wrapper1" id="camping-caption">
+                <div class="hobbies-caption-title">CAMPING</div>
+                <div class="hobbies-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              </div>
             </div>
           </div>
         </div>
@@ -110,7 +189,6 @@
     </div>
 
     <div id="footer-section">
-      <img src="assets/img/swirl_pattern.png" id="swirl-pattern">
       <div class="wrapper" id="footer-wrapper">
         <div id="footer-section-title" class="section-text">CONTACT ME</div>
         <div class="wrapper2" id="footer-wrapper2">
@@ -122,16 +200,16 @@
               School: egosti@berkeley.edu
             </div>
           </div>
-          <a href="https://www.facebook.com/emilygosti" id="facebook" class="footer-item">
+          <a href="https://www.facebook.com/emilygosti" target="_blank" id="facebook" class="footer-item">
             <img src="assets/img/icons/svg/facebook-logo.svg" class="icon">
             <div class="icon-caption">Facebook</div>
           </a>
-          <a href="https://www.instagram.com/e.gosti/" id="instagram" class="footer-item">
+          <a href="https://www.instagram.com/e.gosti/" target="_blank" id="instagram" class="footer-item">
             <img src="assets/img/icons/svg/instagram-logo.svg" class="icon">
             <div class="icon-caption">Instagram</div>
           </a>
           <div id="snapchat" class="footer-item">
-            <img src="assets/img/icons/svg/snapchat.svg" class="icon">
+            <img src="assets/img/icons/svg/snapchat-logo.svg" class="icon">
             <div class="icon-caption">Snapchat</div>
             <div id="snapchat-info">
               @emilyostee
@@ -140,6 +218,7 @@
         </div>
         <div id="credits">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
       </div>
+    </div>
     </div>
 
   </body>

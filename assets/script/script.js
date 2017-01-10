@@ -10,10 +10,17 @@ $(document).ready(function() {
 
   $("#arrow").delay(2250).fadeIn(1500);
 
-  $("#arrow").click(function() {
+  $("#down-arrow").click(function() {
     $("html, body").animate({
       scrollTop: $("#about-section").offset().top
     }, 1000);
+  });
+
+  $("#up-arrow").click(function() {
+    $("html, body").animate({
+      scrollTop: $("#resume-section").offset().top
+    }, 1000);
+    $("#portfolio-section").slideUp();
   });
 
   $(window).scroll(function() {
@@ -49,16 +56,40 @@ $(document).ready(function() {
     $("#symphony-caption").fadeOut();
   });
 
-  $("#tennis").hover(function() {
-    $("#tennis-caption").fadeIn();
+  $("#photography").hover(function() {
+    $("#photography-caption").fadeIn();
   }, function() {
-    $("#tennis-caption").fadeOut();
+    $("#photography-caption").fadeOut();
   });
 
   $("#camping").hover(function() {
     $("#camping-caption").fadeIn();
   }, function() {
     $("#camping-caption").fadeOut();
+  });
+
+  // $("#portfolio-word").click(function() {
+  //   if ($("#portfolio-section").css("display") == "none") {
+  //     $("#portfolio-word").css("font-weight", "bold");
+  //   } else {
+  //     $("#portfolio-word").css("font-weight", "normal");
+  //   }
+  // });
+
+  $("#wdd-caption").hover(function() {
+    $("#wdd-caption").css("background", "white");
+    $("#wdd-words").css("color", "#5B6982");
+  }, function() {
+    $("#wdd-caption").css("background", "none");
+    $("#wdd-words").css("color", "white");
+  });
+
+  $("#blank-caption").hover(function() {
+    $("#blank-caption").css("background", "white");
+    $("#blank-words").css("color", "#5B6982");
+  }, function() {
+    $("#blank-caption").css("background", "none");
+    $("#blank-words").css("color", "white");
   });
 
   $("#sidebar-button").click(function() {

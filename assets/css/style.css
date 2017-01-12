@@ -613,13 +613,13 @@ a {
 }
 
 
-#golf-pic, #camping-pic {
+#golf-pic, #symphony-pic {
   width: 600px;
   height: 300px;
   object-fit: cover;
 }
 
-#symphony-pic, #photography-pic {
+#camping-pic, #photography-pic {
   width: 510px;
   height: 300px;
   object-fit: cover;
@@ -644,7 +644,7 @@ a {
   -o-transition: .5s ease-in-out;
 }
 
-#symphony {
+#camping {
   right: 5%;
   -webkit-filter: grayscale(0%);
   -webkit-transition: .5s ease-in-out;
@@ -654,7 +654,7 @@ a {
   -o-transition: .5s ease-in-out;
 }
 
-#symphony:hover {
+#camping:hover {
   -webkit-filter: grayscale(100%);
   -webkit-transition: .5s ease-in-out;
   -moz-filter: grayscale(0%);
@@ -683,7 +683,7 @@ a {
   -o-transition: .5s ease-in-out;
 }
 
-#camping {
+#symphony {
   top: 310px;
   right: 5%;
   -webkit-filter: grayscale(0%);
@@ -694,7 +694,7 @@ a {
   -o-transition: .5s ease-in-out;
 }
 
-#camping:hover {
+#symphony:hover {
   -webkit-filter: grayscale(100%);
   -webkit-transition: .5s ease-in-out;
   -moz-filter: grayscale(0%);

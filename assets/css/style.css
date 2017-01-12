@@ -820,4 +820,17 @@ a {
     height: 80%;
   }
 
+  .imagecircle {
+      width: 550px;
+      height: 550px;
+      overflow: hidden;
+      border-radius: 50%;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 500;
+      left: 0;
+      right: 0;
+  }
+
 }

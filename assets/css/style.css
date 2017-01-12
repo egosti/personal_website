@@ -810,7 +810,7 @@ a {
 }
 
 /* Smartphones (portrait) */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 320px) {
 
   #sidebar-button {
     display: none;
@@ -821,16 +821,16 @@ a {
   }
 
   .imagecircle {
-      width: 550px;
-      height: 550px;
-      overflow: hidden;
-      border-radius: 50%;
-      position: absolute;
-      margin: auto;
-      top: 0;
-      bottom: 500;
-      left: 0;
-      right: 0;
+    width: 550px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 500;
+    left: 0;
+    right: 0;
   }
 
 }

@@ -615,12 +615,14 @@ a {
 
 #golf-pic, #symphony-pic {
   width: 600px;
+  max-width: 100%;
   height: 300px;
   object-fit: cover;
 }
 
 #camping-pic, #photography-pic {
   width: 510px;
+  max-width: 100%;
   height: 300px;
   object-fit: cover;
 }
@@ -793,4 +795,29 @@ a {
   right: 0;
   top: 330;
   margin: auto;
+}
+
+/* smaller screens */
+@media only screen and (max-width: 800px) {
+
+  .background-pic {
+    object-fit: fill; /* this isn't working */
+  }
+
+  .icon-caption {
+    display: none;
+  }
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width: 750px) {
+
+  #sidebar-button {
+    display: none;
+  }
+
+  #about-section {
+    height: 80%;
+  }
+
 }

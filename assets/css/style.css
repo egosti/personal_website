@@ -1181,10 +1181,14 @@ a {
 
 
   #emilygosti, .section-title {
-    font-size: 60px;
+    font-size: 120px;
   }
 
-  #sidebar-button {
+  .description {
+    font-size: 90px;
+  }
+
+  #sidebar-button, #nav-toggle {
     display: none;
   }
 
@@ -1203,6 +1207,17 @@ a {
     bottom: 50;
     left: 0;
     right: 0;
+  }
+
+  #about {
+    position: absolute;
+    width: 70%;
+    top: 520;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
   }
 
 }

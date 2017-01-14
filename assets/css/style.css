@@ -1312,17 +1312,20 @@ a {
     height: 460px;
   }
 
-  .portfolio-pic {
+  #wdd-pic, #blank-pic {
     width: 900px;
+    height: 500px;
   }
 
-  #wdd {
-    left: 0%;
+  #wdd-pic {
+    left: 0;
+    right: 0;
   }
 
   #blank {
     top: 1000px;
-    right: 0%;
+    left: 0;
+    right: 0;
   }
 
   /* hobbies section */

@@ -1216,7 +1216,12 @@ a {
   }
 
   #footer-section {
-    height: 40%;
+    height: 800px;
+  }
+
+  #footer-wrapper, #footer-wrapper2 {
+    height: 800px;
+    width: 100%;
   }
 
   .imagecircle {

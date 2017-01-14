@@ -251,7 +251,7 @@ a {
   font-family: 'Unica One', cursive;
 }
 
-#corner1 {
+/*#corner1 {
   position: absolute;
   width: 200px;
   top: 20;
@@ -263,7 +263,7 @@ a {
   width: 200px;
   bottom: 20;
   left: 20;
-}
+}*/
 
 #down-arrow {
   position: absolute;
@@ -1230,6 +1230,10 @@ a {
 
   .section-title {
     font-size: 150px;
+  }
+
+  #main-intro {
+    bottom: 200px;
   }
 
   #home-description {

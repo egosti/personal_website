@@ -1192,7 +1192,7 @@ a {
   }
 
   #resume-section {
-    height: 1500px;
+    height: 2000px;
   }
 
   #hobbies-section {
@@ -1208,19 +1208,19 @@ a {
   }
 
   #linkedin, #email {
-    left: 14%;
+    left: 13.5%;
   }
 
   #github, #facebook {
-    left: 34%;
+    left: 33.5%;
   }
 
   #resume, #instagram {
-    left: 54%;
+    left: 53.5%;
   }
 
   #portfolio, #snapchat {
-    left: 74%;
+    left: 73.5%;
   }
 
   /* main section */
@@ -1284,7 +1284,8 @@ a {
   }
 
   .wrapper2 {
-    height: 1500px;
+    height: 120px;
+    top: 1500px;
   }
 
   /* hobbies section */
@@ -1327,6 +1328,10 @@ a {
 
   .icon-caption {
     display: none;
+  }
+
+  #email-info, #snapchat-info {
+    font-size: 50px;
   }
 
 }

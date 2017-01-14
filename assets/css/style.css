@@ -1288,11 +1288,11 @@ a {
 
   /* portfolio section */
   #portfolio-section {
-    height: 1000px;
+    height: 1800px;
   }
 
   #portfolio-wrapper {
-    height: 1000px;
+    height: 1800px;
   }
 
   #up-arrow {
@@ -1314,6 +1314,11 @@ a {
 
   #blank {
     top: 600px;
+    right: 0%;
+  }
+
+  #wdd {
+    left: 0%;
   }
 
   /* hobbies section */

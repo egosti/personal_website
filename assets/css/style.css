@@ -788,7 +788,7 @@ a {
   left: 15%;
 }
 
-#down-arrow-email {
+/*#down-arrow-email {
   position: absolute;
   display: none;
   width: 30px;
@@ -802,7 +802,7 @@ a {
   width: 30px;
   top: 72;
   left: 120;
-}
+}*/
 
 #facebook {
   left: 35%;
@@ -816,7 +816,7 @@ a {
   left: 75%;
 }
 
-#down-arrow-snapchat {
+/*#down-arrow-snapchat {
   position: absolute;
   display: none;
   width: 30px;
@@ -830,7 +830,7 @@ a {
   width: 30px;
   top: 72;
   left: 140;
-}
+}*/
 
 #credits {
   position: absolute;
@@ -1278,11 +1278,11 @@ a {
   }
 
   #credits {
-    bottom: 0;
+    top: 600;
   }
 
-  #footer-item {
-    bottom: 10;
+  .footer-item {
+    top: 400;
   }
 
 }

@@ -68,14 +68,6 @@ $(document).ready(function() {
     $("#camping-caption").fadeOut();
   });
 
-  // $("#portfolio-word").click(function() {
-  //   if ($("#portfolio-section").css("display") == "none") {
-  //     $("#portfolio-word").css("font-weight", "bold");
-  //   } else {
-  //     $("#portfolio-word").css("font-weight", "normal");
-  //   }
-  // });
-
   $("#wdd-caption").hover(function() {
     $("#wdd-caption").css("background", "white");
     $("#wdd-words").css("color", "#5B6982");
@@ -91,6 +83,26 @@ $(document).ready(function() {
     $("#blank-caption").css("background", "none");
     $("#blank-words").css("color", "white");
   });
+
+  // if (("#email-info").css("display") == "none") { not working at the moment
+  //   $("#email").hover(function() {
+  //     $("#up-arrow-email").fadeIn();
+  //   }, function() {
+  //     $("#up-arrow-email").fadeOut();
+  //   });
+  // } else {
+  //   $("#email").hover(function() {
+  //     $("#down-arrow-email").fadeIn();
+  //   }, function() {
+  //     $("#down-arrow-email").fadeOut();
+  //   });
+  // }
+  //
+  // $("#snapchat").hover(function() {
+  //   $("#down-arrow-snapchat").fadeIn();
+  // }, function() {
+  //   $("#down-arrow-snapchat").fadeOut();
+  // });
 
   $("#sidebar-button").click(function() {
     if ($(".sidebar-wrapper").hasClass("sidebar-active") == true) {

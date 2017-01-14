@@ -1196,12 +1196,24 @@ a {
   }
 
   #about-section {
+    height: 2000px;
+  }
+
+  #resume-section {
     height: 1000px;
   }
 
+  #hobbies-section {
+    height: 2000px;
+  }
+
+  #professional-section, #personal-section {
+    height: 60%;
+  }
+
   .imagecircle {
-    width: 550px;
-    height: 550px;
+    width: 600px;
+    height: 600px;
     overflow: hidden;
     border-radius: 50%;
     position: absolute;
@@ -1215,7 +1227,7 @@ a {
   #about {
     position: absolute;
     width: 70%;
-    top: 600;
+    top: 1000;
     bottom: 0;
     left: 0;
     right: 0;

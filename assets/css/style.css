@@ -1278,12 +1278,13 @@ a {
   }
 
   #credits {
-    top: 500;
+    top: 550;
     font-size: 50px;
+    width: 70%;
   }
 
   .footer-item {
-    top: 300;
+    top: 350;
   }
 
   .icon {

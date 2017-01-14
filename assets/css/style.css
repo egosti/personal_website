@@ -1193,7 +1193,7 @@ a {
   }
 
   #about-section {
-    height: 80%;
+    height: 1000px;
   }
 
   .imagecircle {
@@ -1221,11 +1221,15 @@ a {
   }
 
   #about-me-title {
-    font-size: 80px;
+    font-size: 100px;
   }
 
   #about-me-paragraph {
     font-size: 60px;
+  }
+
+  #section-title {
+    font-size: 100px;
   }
 
 }

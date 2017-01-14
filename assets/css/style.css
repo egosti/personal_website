@@ -1233,7 +1233,7 @@ a {
   }
 
   #home-description {
-    display: none;
+    font-size: 50px;
   }
 
   #down-arrow {
@@ -1280,12 +1280,16 @@ a {
 
   /* resume section */
   .wrapper {
-    height: 1500px;
+    height: 2000px;
   }
 
   .wrapper2 {
     height: 120px;
-    top: 1500px;
+    top: 1200px;
+  }
+
+  #resume-section-blurb {
+    top: 300px;
   }
 
   /* hobbies section */

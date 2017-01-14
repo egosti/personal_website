@@ -1309,8 +1309,12 @@ a {
 
   .portfolio-caption-wrapper {
     opacity: 1;
-    width: 860px;
-    height: 460px;
+    width: 800px;
+    height: 400px;
+  }
+
+  .portfolio-caption {
+    font-size: 60px;
   }
 
   #wdd-pic, #blank-pic {
@@ -1324,7 +1328,7 @@ a {
   }
 
   #wdd {
-    top: 50px;
+    top: 400px;
   }
 
   #blank {

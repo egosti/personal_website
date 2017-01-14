@@ -1178,19 +1178,7 @@ a {
    and (-webkit-min-device-pixel-ratio: 2)
    and (orientation: portrait) {
 
-
-  #emilygosti {
-      font-size: 200px;
-  }
-
-  .section-title {
-    font-size: 150px;
-  }
-
-  #home-description {
-    font-size: 120px;
-  }
-
+  /* general */
   .description {
     display: none;
   }
@@ -1219,11 +1207,25 @@ a {
     height: 800px;
   }
 
-  #footer-wrapper, #footer-wrapper2 {
-    height: 800px;
-    width: 100%;
+  /* main section */
+  #emilygosti {
+      font-size: 200px;
   }
 
+  .section-title {
+    font-size: 150px;
+  }
+
+  #home-description {
+    display: none;
+  }
+
+  #down-arrow {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* about section */
   .imagecircle {
     width: 600px;
     height: 600px;
@@ -1260,9 +1262,20 @@ a {
     font-size: 60px;
   }
 
-  #down-arrow {
-    width: 150px;
-    height: 150px;
+  /* footer section */
+  #footer-wrapper {
+    height: 800px;
+    width: 100%;
+  }
+
+  #footer-wrapper2 {
+    height: 600px;
+    width: 100%;
+    bottom: 0;
+  }
+
+  #footer-section-title {
+    top: 100px;
   }
 
 }

@@ -1188,7 +1188,7 @@ a {
   }
 
   #home-description {
-    display: none;
+    font-size: 120px;
   }
 
   .description {
@@ -1204,7 +1204,7 @@ a {
   }
 
   #resume-section {
-    height: 1000px;
+    height: 1500px;
   }
 
   #hobbies-section {
@@ -1213,6 +1213,10 @@ a {
 
   #prof-section, #personal-section {
     height: 60%;
+  }
+
+  #footer-section {
+    height: 40%;
   }
 
   .imagecircle {

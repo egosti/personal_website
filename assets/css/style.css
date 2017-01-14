@@ -1315,6 +1315,8 @@ a {
 
   .portfolio-caption {
     font-size: 60px;
+    width: 800px;
+    height: 400px;
   }
 
   #wdd-pic, #blank-pic {

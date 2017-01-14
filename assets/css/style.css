@@ -1207,6 +1207,22 @@ a {
     height: 800px;
   }
 
+  #linkedin, #email {
+    left: 15%;
+  }
+
+  #github, #facebook {
+    left: 35%;
+  }
+
+  #resume, #instagram {
+    left: 55%;
+  }
+
+  #portfolio, #snapchat {
+    left: 75%;
+  }
+
   /* main section */
   #emilygosti {
       font-size: 200px;
@@ -1284,7 +1300,7 @@ a {
   }
 
   .footer-item {
-    top: 350;
+    top: 325;
   }
 
   .icon {

@@ -1204,7 +1204,7 @@ a {
   }
 
   #hobbies-section {
-    height: 2000px;
+    height: 2500px;
   }
 
   #professional-section, #personal-section {
@@ -1219,7 +1219,7 @@ a {
     position: absolute;
     margin: auto;
     top: 0;
-    bottom: 700;
+    bottom: 2000;
     left: 0;
     right: 0;
   }

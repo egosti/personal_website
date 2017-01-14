@@ -1225,7 +1225,7 @@ a {
 
   /* main section */
   #emilygosti {
-      font-size: 200px;
+    font-size: 250px;
   }
 
   .section-title {
@@ -1233,7 +1233,7 @@ a {
   }
 
   #home-description {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #down-arrow {
@@ -1285,15 +1285,15 @@ a {
 
   .wrapper2 {
     height: 120px;
-    top: 1700px;
+    top: 1650px;
   }
 
   #resume-section-title {
-    top: 80px;
+    top: 60px;
   }
 
   #resume-section-blurb {
-    top: 300px;
+    top: 320px;
   }
 
   /* hobbies section */

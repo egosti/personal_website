@@ -1269,13 +1269,20 @@ a {
   }
 
   #footer-wrapper2 {
-    height: 600px;
+    height: 800px;
     width: 100%;
-    bottom: 0;
   }
 
   #footer-section-title {
     top: 100px;
+  }
+
+  #credits {
+    bottom: 0;
+  }
+
+  #footer-item {
+    bottom: 10;
   }
 
 }

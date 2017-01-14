@@ -1285,7 +1285,11 @@ a {
 
   .wrapper2 {
     height: 120px;
-    top: 1200px;
+    top: 1700px;
+  }
+
+  #resume-section-title {
+    top: 80px;
   }
 
   #resume-section-blurb {

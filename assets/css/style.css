@@ -1179,7 +1179,11 @@ a {
    and (orientation: portrait) {
 
 
-  #emilygosti, .section-title {
+  #emilygosti {
+      font-size: 200px;
+  }
+
+  .section-title {
     font-size: 150px;
   }
 
@@ -1248,8 +1252,8 @@ a {
   }
 
   #down-arrow {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
 
 }

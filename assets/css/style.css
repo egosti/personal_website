@@ -251,20 +251,6 @@ a {
   font-family: 'Unica One', cursive;
 }
 
-/*#corner1 {
-  position: absolute;
-  width: 200px;
-  top: 20;
-  right: 20;
-}
-
-#corner2 {
-  position: absolute;
-  width: 200px;
-  bottom: 20;
-  left: 20;
-}*/
-
 #down-arrow {
   position: absolute;
   opacity: 0.8;
@@ -1237,7 +1223,7 @@ a {
   }
 
   #home-description {
-    font-size: 40px;
+    display: none;
   }
 
   #down-arrow {
@@ -1298,6 +1284,16 @@ a {
 
   #resume-section-blurb {
     top: 320px;
+  }
+
+  /* portfolio section */
+  #portfolio-section {
+    height: 2000;
+  }
+
+  #up-arrow {
+    width: 120px;
+    height: 120px;
   }
 
   /* hobbies section */

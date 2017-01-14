@@ -1227,12 +1227,16 @@ a {
   #about {
     position: absolute;
     width: 70%;
-    top: 800;
+    top: 850;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
     text-align: center;
+  }
+
+  #about-me-title {
+    top: 30;
   }
 
   #about-me-title, #resume-section-title, #portfolio-section-title, #hobbies-section-title, #footer-section-title {

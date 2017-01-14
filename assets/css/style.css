@@ -1278,7 +1278,7 @@ a {
   }
 
   #credits {
-    top: 600;
+    top: 700;
   }
 
   .footer-item {
@@ -1287,6 +1287,10 @@ a {
 
   .icon {
     width: 120px;
+  }
+
+  .icon-caption {
+    display: none;
   }
 
 }

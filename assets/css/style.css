@@ -1219,7 +1219,7 @@ a {
     position: absolute;
     margin: auto;
     top: 0;
-    bottom: 300;
+    bottom: 700;
     left: 0;
     right: 0;
   }
@@ -1227,7 +1227,7 @@ a {
   #about {
     position: absolute;
     width: 70%;
-    top: 800;
+    top: 700;
     bottom: 0;
     left: 0;
     right: 0;
@@ -1246,6 +1246,7 @@ a {
 
   #down-arrow {
     width: 200px;
+    height: 200px;
   }
 
 }

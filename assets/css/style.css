@@ -1298,6 +1298,7 @@ a {
   #up-arrow {
     width: 120px;
     height: 120px;
+    bottom: 100px;
   }
 
   .portfolio-picture {
@@ -1322,8 +1323,12 @@ a {
     right: 0;
   }
 
+  #wdd {
+    top: 50px;
+  }
+
   #blank {
-    top: 1000px;
+    top: 950px;
     left: 0;
     right: 0;
   }

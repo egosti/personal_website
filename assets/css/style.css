@@ -1172,7 +1172,7 @@ a {
 }
 
  /*Smartphones (portrait) */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-device-width: 500px) {
 
   #emilygosti, .section-title {
     font-size: 60px;

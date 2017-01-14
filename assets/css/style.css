@@ -1196,7 +1196,7 @@ a {
   }
 
   #about-section {
-    height: 2000px;
+    height: 2500px;
   }
 
   #resume-section {
@@ -1204,10 +1204,10 @@ a {
   }
 
   #hobbies-section {
-    height: 2500px;
+    height: 3000px;
   }
 
-  #professional-section, #personal-section {
+  #prof-section, #personal-section {
     height: 60%;
   }
 
@@ -1219,7 +1219,7 @@ a {
     position: absolute;
     margin: auto;
     top: 0;
-    bottom: 2000;
+    bottom: 1500;
     left: 0;
     right: 0;
   }

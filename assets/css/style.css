@@ -1219,7 +1219,7 @@ a {
     position: absolute;
     margin: auto;
     top: 0;
-    bottom: 100;
+    bottom: 300;
     left: 0;
     right: 0;
   }
@@ -1227,7 +1227,7 @@ a {
   #about {
     position: absolute;
     width: 70%;
-    top: 1000;
+    top: 800;
     bottom: 0;
     left: 0;
     right: 0;
@@ -1237,12 +1237,15 @@ a {
 
   #about-me-title, #resume-section-title, #portfolio-section-title, #hobbies-section-title, #footer-section-title {
     font-size: 100px;
+    top: 10px;
   }
 
   #about-me-paragraph, #resume-section-blurb, #hobbies-section-blurb {
     font-size: 60px;
   }
 
-
+  #down-arrow {
+    width: 200px;
+  }
 
 }

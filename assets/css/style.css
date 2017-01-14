@@ -1172,7 +1172,6 @@ a {
 }
 
  /* iPhone 6 (portrait) */
- /* Portrait */
  @media only screen
    and (min-device-width: 375px)
    and (max-device-width: 667px)
@@ -1182,6 +1181,10 @@ a {
 
   #emilygosti, .section-title {
     font-size: 150px;
+  }
+
+  #home-description {
+    display: none;
   }
 
   .description {
@@ -1220,16 +1223,14 @@ a {
     text-align: center;
   }
 
-  #about-me-title {
+  #about-me-title, #resume-section-title, #portfolio-section-title, #hobbies-section-title, #footer-section-title {
     font-size: 100px;
   }
 
-  #about-me-paragraph {
+  #about-me-paragraph, #resume-section-blurb, #hobbies-section-blurb {
     font-size: 60px;
   }
 
-  #section-title {
-    font-size: 100px;
-  }
+
 
 }

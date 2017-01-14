@@ -1208,19 +1208,19 @@ a {
   }
 
   #linkedin, #email {
-    left: 15%;
+    left: 14%;
   }
 
   #github, #facebook {
-    left: 35%;
+    left: 34%;
   }
 
   #resume, #instagram {
-    left: 55%;
+    left: 54%;
   }
 
   #portfolio, #snapchat {
-    left: 75%;
+    left: 74%;
   }
 
   /* main section */
@@ -1276,6 +1276,24 @@ a {
 
   #about-me-paragraph, #resume-section-blurb, #hobbies-section-blurb {
     font-size: 60px;
+  }
+
+  /* resume section */
+  .wrapper {
+    height: 1500px;
+  }
+
+  .wrapper2 {
+    height: 1500px;
+  }
+
+  /* hobbies section */
+  #hobbies-wrapper {
+    height: 3000px;
+  }
+
+  #hobbies-wrapper2 {
+    height: 3000px;
   }
 
   /* footer section */

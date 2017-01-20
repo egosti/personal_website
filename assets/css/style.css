@@ -1270,6 +1270,11 @@ hr {
   }
 
   /* about section */
+
+  #about-section {
+    height: 3500px;
+  }
+
   .imagecircle {
     width: 600px;
     height: 600px;
@@ -1308,14 +1313,15 @@ hr {
 
   #about-me-paragraph {
     top: 400px;
+    width: 100%;
   }
 
   #major-title, #year-title, #skills-title {
-    font-size: 100px;
+    font-size: 80px;
   }
 
-  #major-year {
-    top: 100px;
+  #major-year, #skills {
+    top: 1000px;
   }
 
   #major-title, #major, #year-title, #year {

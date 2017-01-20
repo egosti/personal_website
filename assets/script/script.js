@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
   $("#email-info, #snapchat-info, #portfolio-section, .hobbies-caption-wrapper1, .hobbies-caption-wrapper2").hide();
-  $("#emilygosti, #home-description, #arrow").hide();
+  $("#emilygosti, #home-description, #down-arrow").hide();
   $("#sidebar-button").hide();
 
   $("#emilygosti").delay(750).fadeIn(1500);
 
   $("#home-description").delay(1250).fadeIn(1500);
 
-  $("#arrow").delay(2250).fadeIn(1500);
+  $("#down-arrow").delay(2250).fadeIn(1500);
 
   $("#down-arrow").click(function() {
     $("html, body").animate({

@@ -323,7 +323,7 @@ hr {
   width: 550px;
   top: 100px;
   bottom: 0;
-  left: 400;
+  left: 420;
   right: 0;
   margin: auto;
   text-align: center;
@@ -1302,8 +1302,49 @@ hr {
     font-size: 100px;
   }
 
-  #about-me-paragraph, #resume-section-blurb, #hobbies-section-blurb {
+  #about-me-paragraph, #major-year, #skills, #resume-section-blurb, #hobbies-section-blurb {
     font-size: 60px;
+  }
+
+  #about-me-paragraph {
+    top: 400px;
+  }
+
+  #major-title, #year-title, #skills-title {
+    font-size: 100px;
+  }
+
+  #major-year {
+    top: 100px;
+  }
+
+  #major-title, #major, #year-title, #year {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  #major {
+    top: 40px;
+  }
+
+  #year-title {
+    top: 110px;
+  }
+
+  #year {
+    top: 175px;
+  }
+
+  #skills {
+    top: 320px;
+  }
+
+  #skills-bullets {
+    position: absolute;
+    text-align: left;
+    top: 15px;
   }
 
   /* resume section */

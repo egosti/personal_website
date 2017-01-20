@@ -1336,7 +1336,6 @@ hr {
     position: absolute;
     width: 900px;
     left: 0;
-    right: 0;
     margin: auto;
   }
 
@@ -1446,6 +1445,14 @@ hr {
 
   #hobbies-wrapper2 {
     height: 3000px;
+  }
+
+  #hobbies-section-title {
+    top: 50px;
+  }
+
+  #hobbies-section-blurb {
+    top: 500px;
   }
 
   /* footer section */

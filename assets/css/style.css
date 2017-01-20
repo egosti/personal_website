@@ -1322,6 +1322,7 @@ hr {
   }
 
   #major-year {
+    left: 0;
     width: 900px;
     top: 1350px;
   }

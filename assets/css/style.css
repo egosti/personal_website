@@ -1322,7 +1322,7 @@ hr {
 
   #major-year {
     width: 900px;
-    top: 1300px;
+    top: 1350px;
   }
 
   #skills {
@@ -1345,7 +1345,7 @@ hr {
 
   #year-title {
     width: 900px;
-    top: 400px;
+    top: 350px;
   }
 
   #year {
@@ -1362,6 +1362,8 @@ hr {
 
   #major-year, #skills {
     left: 0px;
+    right: 0px;
+    margin: auto;
   }
 
   /* resume section */

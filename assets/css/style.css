@@ -1283,7 +1283,7 @@ hr {
     position: absolute;
     margin: auto;
     top: 0;
-    bottom: 1500;
+    bottom: 2500;
     left: 0;
     right: 0;
   }
@@ -1320,8 +1320,12 @@ hr {
     font-size: 80px;
   }
 
-  #major-year, #skills {
-    top: 1000px;
+  #major-year {
+    top: 2000px;
+  }
+
+  #skills {
+    top: 2500px;
   }
 
   #major-title, #major, #year-title, #year {
@@ -1341,10 +1345,6 @@ hr {
 
   #year {
     top: 175px;
-  }
-
-  #skills {
-    top: 320px;
   }
 
   #skills-bullets {

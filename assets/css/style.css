@@ -1313,6 +1313,7 @@ hr {
 
   #about-me-paragraph {
     top: 370px;
+    left: 0px;
     width: 700px;
   }
 
@@ -1362,7 +1363,7 @@ hr {
 
   #major-year, #skills {
     left: 0px;
-    right: 0px;
+    right: 50px;
     margin: auto;
   }
 

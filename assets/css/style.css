@@ -1313,7 +1313,7 @@ hr {
 
   #about-me-paragraph {
     top: 370px;
-    width: 700px;
+    width: 900px;
   }
 
   #major-title, #year-title, #skills-title {
@@ -1321,41 +1321,41 @@ hr {
   }
 
   #major-year {
-    width: 700px;
-    top: 1500px;
+    width: 900px;
+    top: 1200px;
   }
 
   #skills {
-    width: 700px;
+    width: 900px;
     top: 2000px;
   }
 
   #major-title, #major, #year-title, #year {
     position: absolute;
-    width: 700px;
+    width: 900px;
     left: 0;
     right: 0;
     margin: auto;
   }
 
   #major {
-    width: 700px;
+    width: 900px;
     top: 100px;
   }
 
   #year-title {
-    width: 700px;
+    width: 900px;
     top: 400px;
   }
 
   #year {
-    width: 700px;
+    width: 900px;
     top: 500px;
   }
 
   #skills-bullets {
     position: absolute;
-    width: 700px;
+    width: 900px;
     text-align: left;
     top: 15px;
   }

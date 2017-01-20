@@ -1313,7 +1313,7 @@ hr {
 
   #about-me-paragraph {
     top: 370px;
-    width: 900px;
+    width: 700px;
   }
 
   #major-title, #year-title, #skills-title {
@@ -1340,7 +1340,7 @@ hr {
 
   #major {
     width: 900px;
-    top: 100px;
+    top: 130px;
   }
 
   #year-title {
@@ -1350,14 +1350,14 @@ hr {
 
   #year {
     width: 900px;
-    top: 500px;
+    top: 600px;
   }
 
   #skills-bullets {
     position: absolute;
     width: 900px;
     text-align: left;
-    top: 15px;
+    top: 50px;
   }
 
   /* resume section */

@@ -1332,25 +1332,30 @@ hr {
 
   #major-title, #major, #year-title, #year {
     position: absolute;
+    width: 700px;
     left: 0;
-    right: 100;
+    right: 0;
     margin: auto;
   }
 
   #major {
+    width: 700px;
     top: 100px;
   }
 
   #year-title {
+    width: 700px;
     top: 400px;
   }
 
   #year {
+    width: 700px;
     top: 500px;
   }
 
   #skills-bullets {
     position: absolute;
+    width: 700px;
     text-align: left;
     top: 15px;
   }

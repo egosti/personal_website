@@ -1456,7 +1456,11 @@ hr {
   }
 
   #hobbies-section-blurb {
-    top: 300px;
+    top: 350px;
+  }
+
+  #hobbies-caption-wrapper1, #hobbies-caption-wrapper2 {
+    
   }
 
   /* footer section */

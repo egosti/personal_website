@@ -18,6 +18,14 @@ hr {
   height: 1px;
 }
 
+.upto {
+  color: #5B6982;
+}
+
+.upto:hover {
+  color: black;
+}
+
 .section {
   width: 100%;
   height: 100%;
@@ -81,7 +89,8 @@ hr {
   position: absolute;
   top: 70px;
   font-size: 30px;
-  font-family: 'Inconsolata', monospace;
+  /*font-family: 'Inconsolata', monospace;*/
+  font-family: 'Alegreya Sans', sans-serif;
   text-decoration: none;
   text-align: center;
   left: 0;
@@ -243,7 +252,7 @@ hr {
 /* main section */
 
 #main-section {
-  background: url("img/monterey-min.JPG");
+  background: url("img/emilyemeri-min.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -300,8 +309,8 @@ hr {
 }
 
 .imagecircle {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     overflow: hidden;
     border-radius: 50%;
     position: absolute;
@@ -328,31 +337,33 @@ hr {
   left: 420;
   right: 0;
   margin: auto;
-  text-align: center;
+  text-align: right;
 }
 
 #about-me-title {
   font-size: 40px;
-  left: 0;
+  /*left: 0;*/
   right: 0;
-  margin: auto;
+  /*margin: auto;*/
 }
 
 #about-me-paragraph {
-  top: 120px;
-  left: 30px;
+  top: 90px;
   font-size: 18px;
-  width: 200px;
+  width: 100%;
+  text-align: right;
 }
 
 #major-title, #year-title, #skills-title {
   font-size: 26px;
+  text-align: right;
 }
 
 #major-year, #skills {
   font-size: 18px;
-  width: 280px;
-  left: 280px;
+  width: 500px;
+  /*left: 280px;*/
+  right: 0;
 }
 
 #major-year {
@@ -384,8 +395,9 @@ hr {
 
 #skills-bullets {
   position: absolute;
-  text-align: left;
-  top: 15px;
+  text-align: right;
+  top: 50px;
+  right: 0;
 }
 
 /* professional section */
@@ -560,7 +572,7 @@ hr {
 /* personal section */
 
 #personal-section {
-  background-image: url("img/emilyemeri-min.jpg");
+  background-image: url("img/monterey-min.JPG");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -692,14 +704,14 @@ hr {
   -o-transition: .5s ease-in-out;
 }
 
-#golf:hover {
+/*#golf:hover {
   -webkit-filter: grayscale(100%);
   -webkit-transition: .5s ease-in-out;
   -moz-filter: grayscale(0%);
   -moz-transition: .5s ease-in-out;
   -o-filter: grayscale(0%);
   -o-transition: .5s ease-in-out;
-}
+}*/
 
 #camping {
   right: 5%;
@@ -711,14 +723,14 @@ hr {
   -o-transition: .5s ease-in-out;
 }
 
-#camping:hover {
+/*#camping:hover {
   -webkit-filter: grayscale(100%);
   -webkit-transition: .5s ease-in-out;
   -moz-filter: grayscale(0%);
   -moz-transition: .5s ease-in-out;
   -o-filter: grayscale(0%);
   -o-transition: .5s ease-in-out;
-}
+}*/
 
 #photography {
   top: 310px;
@@ -731,14 +743,14 @@ hr {
   -o-transition: .5s ease-in-out;
 }
 
-#photography:hover {
+/*#photography:hover {
   -webkit-filter: grayscale(100%);
   -webkit-transition: .5s ease-in-out;
   -moz-filter: grayscale(0%);
   -moz-transition: .5s ease-in-out;
   -o-filter: grayscale(0%);
   -o-transition: .5s ease-in-out;
-}
+}*/
 
 #symphony {
   top: 310px;
@@ -751,14 +763,14 @@ hr {
   -o-transition: .5s ease-in-out;
 }
 
-#symphony:hover {
+/*#symphony:hover {
   -webkit-filter: grayscale(100%);
   -webkit-transition: .5s ease-in-out;
   -moz-filter: grayscale(0%);
   -moz-transition: .5s ease-in-out;
   -o-filter: grayscale(0%);
   -o-transition: .5s ease-in-out;
-}
+}*/
 
 /* footer section */
 
@@ -1071,10 +1083,10 @@ hr {
     width: 70%;
     top: 560;
     bottom: 0;
-    left: 0;
-    right: 0;
+    /*left: 0;*/
+    /*right: 0;*/
     margin: auto;
-    text-align: center;
+    text-align: right;
   }
 
   #about-me-title {
@@ -1082,11 +1094,13 @@ hr {
     left: 0;
     right: 0;
     margin: auto;
+    text-align: right;
   }
 
   #about-me-paragraph {
     top: 120px;
     font-size: 18px;
+    text-align: right;
   }
 
   #major-year, #skills {
@@ -1206,6 +1220,7 @@ hr {
 
   /* general */
   .description {
+    margin-top: 20px;
     display: none;
   }
 

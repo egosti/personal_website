@@ -860,12 +860,24 @@ hr {
 
 #credits {
   position: absolute;
-  font-family: 'Inconsolata', monospace;
+  /*font-family: 'Inconsolata', monospace;*/
+  font-family: 'Raleway', sans-serif;
   color: white;
   z-index: 1;
   left: 0;
   right: 0;
-  top: 330;
+  top: 320;
+  margin: auto;
+}
+#copyright {
+  position: absolute;
+  /*font-family: 'Inconsolata', monospace;*/
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 350;
   margin: auto;
 }
 

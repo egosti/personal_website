@@ -62,7 +62,8 @@ hr {
 .section-title {
   font-size: 70px;
   /*font-family: 'Unica One', cursive;*/
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 .darken {
@@ -89,7 +90,6 @@ hr {
   position: absolute;
   top: 70px;
   font-size: 30px;
-  /*font-family: 'Inconsolata', monospace;*/
   font-family: 'Alegreya Sans', sans-serif;
   text-decoration: none;
   text-align: center;
@@ -264,9 +264,9 @@ hr {
 #emilygosti {
   opacity: 0.9;
   font-size: 75px;
-  /*font-family: 'Alegreya Sans', sans-serif;*/
+  font-family: 'Alegreya Sans', sans-serif;
   /*font-family: 'Unica One', cursive;*/
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
 }
 
 #down-arrow {
@@ -345,6 +345,7 @@ hr {
   /*left: 0;*/
   right: 0;
   /*margin: auto;*/
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 #about-me-paragraph {
@@ -357,6 +358,7 @@ hr {
 #major-title, #year-title, #skills-title {
   font-size: 26px;
   text-align: right;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 #major-year, #skills {
@@ -447,6 +449,7 @@ hr {
 
 #resume-section-title {
   font-size: 40px;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 #resume-section-blurb {
@@ -478,6 +481,7 @@ hr {
 
 #portfolio-section-title {
   font-size: 40px;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 #portfolio-wrapper {
@@ -612,6 +616,7 @@ hr {
 
 #hobbies-section-title {
   font-size: 40px;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 #hobbies-section-blurb {
@@ -811,6 +816,7 @@ hr {
 }
 
 #footer-section-title {
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 40px;
   color: white;
   top: 50px;
@@ -1318,10 +1324,12 @@ hr {
 
   #about-me-title {
     top: 100;
+    font-family: 'Alegreya Sans', sans-serif;
   }
 
   #about-me-title, #resume-section-title, #portfolio-section-title, #hobbies-section-title, #footer-section-title {
     font-size: 100px;
+    font-family: 'Alegreya Sans', sans-serif;
   }
 
   #about-me-paragraph, #major-year, #skills, #resume-section-blurb, #hobbies-section-blurb {
@@ -1336,6 +1344,7 @@ hr {
 
   #major-title, #year-title, #skills-title {
     font-size: 80px;
+    font-family: 'Alegreya Sans', sans-serif;
   }
 
   #major-year {

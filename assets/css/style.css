@@ -280,8 +280,6 @@ hr {
   opacity: 0.9;
   font-size: 75px;
   font-family: 'Alegreya Sans', sans-serif;
-  /*font-family: 'Unica One', cursive;*/
-  /*font-family: 'Raleway', sans-serif;*/
 }
 
 #down-arrow {
@@ -369,40 +367,16 @@ hr {
   text-align: right;
 }
 
-#major-title, #year-title, #skills-title {
+#skills-title {
   font-size: 26px;
   text-align: right;
   font-family: 'Josefin Sans', sans-serif;
 }
 
-#major-year, #skills {
+#skills {
   font-size: 18px;
   width: 500px;
-  /*left: 280px;*/
   right: 0;
-}
-
-#major-year {
-  top: 100px;
-}
-
-#major-title, #major, #year-title, #year {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-#major {
-  top: 40px;
-}
-
-#year-title {
-  top: 110px;
-}
-
-#year {
-  top: 175px;
 }
 
 #skills {
@@ -419,7 +393,7 @@ hr {
 /* professional section */
 
 #prof-section {
-  background-image: url("img/sfstreet-min.jpg");
+  background-image: url("img/googleplex-min.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -497,7 +471,6 @@ hr {
 
 #portfolio-section-title {
   font-size: 40px;
-  /*font-family: 'Alegreya Sans', sans-serif;*/
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -559,7 +532,7 @@ hr {
   position: absolute;
   font-size: 36px;
   font-weight: bold;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Josefin Sans', sans-serif;
   color: white;
   text-align: center;
   width: 470px;
@@ -593,7 +566,7 @@ hr {
 /* personal section */
 
 #personal-section {
-  background-image: url("img/82044.jpg");
+  background-image: url("img/82044-min.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -606,10 +579,6 @@ hr {
 #hobbies-section {
   height: 1000px;
   background-color: #f5f5f5;
-}
-
-#icon-pattern2 {
-  position: relative;
 }
 
 #hobbies-wrapper {
@@ -633,12 +602,11 @@ hr {
 
 #hobbies-section-title {
   font-size: 40px;
-  /*font-family: 'Alegreya Sans', sans-serif;*/
   font-family: 'Josefin Sans', sans-serif;
 }
 
 #hobbies-section-blurb {
-  top: 100px;
+  top: 70px;
 }
 
 .hobbies-picture {
@@ -681,25 +649,24 @@ hr {
 
 .hobbies-caption-title {
   position: absolute;
-  color: black;
+  color: #5B6982;
   text-align: left;
-  font-family: "Raleway", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
+  font-weight: bold;
   padding: 30px;
-  opacity: 1;
 }
 
 .hobbies-caption {
   position: absolute;
   color: #5B6982;
   text-align: left;
-  font-family: 'Inconsolata', monospace;
-  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   z-index: 2;
   padding: 30px;
   bottom: 0;
   margin: auto;
-  opacity: 1;
 }
 
 
@@ -834,7 +801,6 @@ hr {
 }
 
 #footer-section-title {
-  /*font-family: 'Alegreya Sans', sans-serif;*/
   font-family: 'Josefin Sans', sans-serif;
   font-size: 40px;
   color: white;
@@ -879,7 +845,6 @@ hr {
 
 #credits {
   position: absolute;
-  /*font-family: 'Inconsolata', monospace;*/
   font-family: 'Raleway', sans-serif;
   color: white;
   z-index: 1;
@@ -890,7 +855,6 @@ hr {
 }
 #copyright {
   position: absolute;
-  /*font-family: 'Inconsolata', monospace;*/
   font-family: 'Raleway', sans-serif;
   color: white;
   z-index: 1;
@@ -1240,10 +1204,6 @@ hr {
     padding: 15px;
     left: 15px;
     font-size: 20px;
-  }
-
-  #icon-pattern2 {
-    display: none;
   }
 
 }

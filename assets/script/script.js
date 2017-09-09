@@ -84,26 +84,6 @@ $(document).ready(function() {
     $("#blank-words").css("color", "white");
   });
 
-  // if (("#email-info").css("display") == "none") { not working at the moment
-  //   $("#email").hover(function() {
-  //     $("#up-arrow-email").fadeIn();
-  //   }, function() {
-  //     $("#up-arrow-email").fadeOut();
-  //   });
-  // } else {
-  //   $("#email").hover(function() {
-  //     $("#down-arrow-email").fadeIn();
-  //   }, function() {
-  //     $("#down-arrow-email").fadeOut();
-  //   });
-  // }
-  //
-  // $("#snapchat").hover(function() {
-  //   $("#down-arrow-snapchat").fadeIn();
-  // }, function() {
-  //   $("#down-arrow-snapchat").fadeOut();
-  // });
-
   $("#sidebar-button").click(function() {
     if ($(".sidebar-wrapper").hasClass("sidebar-active") == true) {
       setTimeout(function() {
